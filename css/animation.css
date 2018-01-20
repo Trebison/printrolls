@@ -1,0 +1,122 @@
+
+
+/* Texto que aparece con click */
+
+@keyframes intro {
+	0% {opacity: 0;}
+	25% {opacity: 0.2;}
+	50% {opacity: 0.5;}
+	75% {opacity: 0.8;}
+	100% {opacity: 1;}
+	from{
+		top: -10px;
+	}
+	to{
+		top: 0px;
+	}
+}
+
+.animation {
+	animation-name: intro;
+	animation-duration: 0.8s;
+	position: relative;
+}
+
+
+/* Texto que se desliza */
+
+
+@keyframes output {
+	from{
+		left: -1000px;
+	}
+	to{
+		left: 0px;
+	}
+}
+
+@keyframes grow {
+	from{
+		width: 0px;
+	}
+	to{
+		width: 100%;
+	}
+}
+
+
+/* X del menu Hamburguesa */
+
+
+.open .one{
+	transform: rotate(45deg) translate(7px,7px);
+}
+
+.open .two{
+	opacity: 0;
+}
+
+.open .tri{
+	transform: rotate(-45deg) translate(7px, -7px);
+}
+
+.show{
+	left: 0px;
+}
+
+
+/* Texto en movimiento en Slider */
+
+
+@keyframes welcome_p {
+	from{
+		left: -1000px;
+	}
+	to{
+		align-items: center;
+		left: 0px;
+	}
+}
+
+@keyframes welcome_t {
+	from{
+		left: -1000px;
+	}
+	to{
+		left: 0px;
+	}
+}
+
+.slide ul li p{
+	animation-name: welcome_p;
+	animation-duration: 2s;
+}
+
+@keyframes welcome_s {
+	0% {opacity: 0;}
+	10% {opacity: 0;}
+	20% {opacity: 0;}
+	30% {opacity: 0;}
+	40% {opacity: 0;}
+	50% {opacity: 0;}
+	60% {opacity: 0.1;}
+	65% {opacity: 0.2;}
+	70% {opacity: 0.3;}
+	75% {opacity: 0.4;}
+	80% {opacity: 0.5;}
+	85% {opacity: 0.6;}
+	90% {opacity: 0.7;}
+	95% {opacity: 0.8;}
+	100% {opacity: 1;}
+}
+
+.slide ul li small{
+	animation-name: welcome_s;
+	animation-duration: 5s;
+}
+
+.slide ul li text{
+	animation-name: welcome_t;
+	animation-duration: 2s;
+}
+

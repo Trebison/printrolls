@@ -1,0 +1,282 @@
+.menu{
+	height: auto;
+	width: 100%;
+}
+
+.menu nav{
+	align-items: center;
+	background: #cecece;
+	display: flex;
+	justify-content: space-between;
+	padding: 3em;
+	width: 100%;
+}
+
+.menu i{
+	color: #696b6a;
+	text-align: center;
+	font-size: 40px;
+	width: 100%;
+}
+
+.menu ul{
+	display: none;
+	list-style: none;
+	padding-top: 3px;
+	width: 40%;
+}
+
+.menu li{
+	align-items: center;
+	display: flex;
+	flex: auto;
+	text-align: center;
+}
+
+.menu li a{
+	color: #696b6a;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	line-height: 1em;
+}
+
+.menu h1{
+	color: #696b6a;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+}
+
+.menu .title{
+	color: #585859;
+}
+
+.back{
+	display: none;
+	margin-left: 20px;
+}
+
+.logo{
+	margin-right: 20px;
+}
+
+.menu-bar{
+	cursor: pointer;
+	display: none;
+	margin-left: 20px;
+	width: 35px;
+}
+
+.one, .two, .tri{
+	background: #494a4a;
+	height: 6px;
+	transition: all 0.2s;
+	width: 100%;
+}
+
+.two{
+	margin: 4px 0;
+}
+
+.menu-down{
+	background: #fafafa;
+	left: -100em;
+	padding: 0.5em;
+	position: absolute;
+	transition: all .3s;
+	top: 47px;
+	width: 30%;
+	z-index: 10;
+}
+
+.menu-down ul{
+	list-style: none;
+	margin: 20px;
+}
+
+.menu-down li{
+	color: #4a4848;
+	margin-bottom: 2.5em;
+	margin-top: 1.5em;
+	width: 100%;
+}
+
+.menu-down li a{
+	color: #4a4848;
+}
+
+.menu-down span{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.menu-down hr{
+	margin-bottom: 1em;
+}
+
+#principal{
+	font-weight: bold;
+}
+
+.control, .control i{
+	display: none;
+	margin-right: 10px;
+}
+
+#back-m{
+	align-items: center;
+	background: #ffeb1b;
+	color: #4f4f4f;
+	display: flex;
+	min-height: 15vh;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+
+#back-m:hover{
+	background: #d1b31d;
+	box-shadow: inset 2px 2px 10px -2px #2b2929;
+	transition: .6;
+}
+
+/*////////// RESPONSIVE //////////*/
+
+
+@media screen and (min-width: 740px)
+{
+	.menu nav{
+		background: #ffeb1b;
+		box-shadow: 1px 2px 10px #676262;
+		padding: 0.6em;
+		position: absolute;
+		opacity: 1;
+		z-index: 10;
+	}
+
+	.menu i{
+		font-size: 26px;
+		width: 200px;
+	}
+
+	.menu ul{
+		display: flex;
+	}
+
+	.menu-down{
+
+	}
+
+	.menu-down ul{
+		margin-top: 1em;
+	}
+
+	.grid{
+		display: none;
+	}
+
+	.slidesjs-pagination{
+		display: flex;
+	}
+
+	.block{
+		display: block;
+	}
+
+	.go_top{
+		visibility: visible;
+	}
+
+	.menu-bar{
+		display: block;
+	}
+
+	.logo i{
+		font-size: 14px;
+	}
+
+	.control{
+		display: block;
+	}
+
+	.control i{
+		display: inline;
+	}
+
+	.back{
+		display: block;
+	}
+
+	#back-m{
+		display: none;
+	}
+}
+
+@media screen and (min-height: 1200px)
+{
+	.menu i, .menu h1{
+		font-size: 50px;
+		width: 400px;
+		padding: 0.3em;
+	}
+
+	.menu li a{
+		font-size: 40px;
+	}
+
+	.menu-bar{
+		width: 45px;
+	}
+
+	.one, .two, .tri{
+		height: 7px;
+	}
+
+	.menu-down{
+		top: 95px;
+	}
+
+	.menu-down li{
+		font-size: 1.3em;
+		padding: 0.3em;
+	}
+
+	.menu-down li b{
+		font-size: 2em;
+	}
+}
+
+@media only screen 
+    and (device-height : 375px) 
+    and (device-width : 812px) 
+    and (-webkit-device-pixel-ratio : 3) 
+    {
+    	.menu nav{
+			align-items: center;
+			background: #cecece;
+			box-shadow: none;
+			display: flex;
+			justify-content: space-between;
+			padding: 3em;
+			width: 100%;
+			position: relative;
+    	}
+
+    	.control, .back, .menu ul{
+    		display: none;
+    	}
+
+		.menu-bar{
+			display: none;
+		}
+
+    	#back-m{
+    		display: flex;
+    	}
+
+    	.menu i{
+    		width: 100%;
+    	}
+    }

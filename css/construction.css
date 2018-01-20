@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Montserrat', serif;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url("../img/wallpaper.png");
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.content{
+	align-items: center;
+	display: flex;
+	height: 80%;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	z-index: 0;
+}
+
+.content p{
+	color: white;
+	font-size: 24px;
+	opacity: 0;
+	transition: 8s;
+	transition-delay: 1s;
+	text-align: center;
+}
+
+.content i{
+	color: #ffeb1b;
+	font-size: 300px;
+	transition: 20s;
+	transition-delay: 0.2s;
+	position: absolute;
+	z-index: 20;
+}
+
+
+.content i:hover{
+	transition: 8s;
+	transform: rotate(360deg);
+	transition-delay: -1s;
+}
+
+.content i:hover + p{
+	opacity: 1;
+	color: #403d3d;
+	transition: 8s;
+	word-spacing: 180px;
+}
+
+
+.content a{
+	font-size: 30px;
+}
+
+.content text{
+	font-size: 12px;
+}
+
+.logo{
+	align-items: center;
+	display: flex;
+	height: 20%;
+	justify-content: center;
+	width: 100%;
+}
+
+.logo i{
+	font-size: 15px;
+	letter-spacing: -0.5px;
+}
+
+.logo a{
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.logo a:hover{
+	text-decoration: underline;
+}

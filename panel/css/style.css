@@ -1,0 +1,286 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: montserrat;
+}
+
+body{
+	align-items: center;
+	background: #333 !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 100vh;
+	max-width: 100vw;
+}
+
+ul{
+	display: flex;
+	flex-wrap: wrap;
+	height: 50%;
+	padding: 1em;
+	margin-top: 1em;
+	width: 35%;
+}
+
+li{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	margin-top: 1em; 
+	text-align: center;
+	width: 100%;
+}
+
+li a{
+	background: #ffeb1b;
+	border-radius: 3px;
+	padding: 1em;
+	text-decoration: none;
+	color: #333;
+}
+
+i{
+	color: #f3f3f3;
+}
+
+#close{
+	background: #aa2525;
+	color: #f3f3f3;
+}
+
+.back{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.back i{
+	background: #aa2525;
+	border-radius: 50%;
+	font-size: 0.8em;	
+	padding: 1em;
+}
+
+.back a{
+	text-decoration: none;
+}
+
+h1{
+	color: #f3f3f3;
+}
+
+.back form{
+	min-height: 15vh;
+	width: 10vw;
+}
+
+.back form input[type=submit]{
+	background: none;
+	border-radius: 50%;
+	font-size: 0.8em;
+	height: 40px;
+	padding: 1em;
+	position: absolute;
+	width: 40px;
+	z-index: 1;
+}
+
+.back form i{
+	background: #aa2525;
+	align-items: center;
+	color: #f3f3f3;
+	display: flex;
+	justify-content: center;
+	margin-top: 0.2em;
+	position: relative;
+	z-index: 0;
+}
+
+/*///// FORMULARIOS /////*/
+
+
+form{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	min-height: 30vh;
+	justify-content: center;
+	width: 22vw;
+}
+
+form input{
+	background: #f2f2f2;
+	border: solid 1px #e3e3e3;
+	border-radius: 3px;
+	margin-top: 0.5em;
+	padding: 0.3em;
+	text-align: center;
+	width: 70%;
+}
+
+form input[type=submit]{
+	background: #ffeb1b;
+	border: none;
+	color: #333;
+	cursor: pointer;
+	padding: 0.4em;
+}
+
+form textarea{
+	background: #f2f2f2;
+	border: solid 1px #e3e3e3;
+	border-radius: 3px;
+	margin-top: 0.5em;
+	padding: 0.3em;
+	text-align: center;
+	width: 70%;
+}
+
+form caption{
+	color: #f3f3f3;
+}
+
+form select{
+	margin: 1.5em;
+}
+
+form textarea{
+	height: 10%;
+	resize: none;
+	margin: 1em;
+	width: 100%;
+}
+
+form h2{
+	margin-bottom: 1em;
+}
+
+form i{
+	color: #333;
+}
+
+label{
+	color: #f3f3f3;
+	margin: 0.5em;
+}
+
+/*///// TABLAS /////*/
+
+
+table{
+	background: white;
+	border-radius: 3px;
+	margin: 2em;
+	padding: 1em;
+	text-align: center;
+}
+
+thead{
+	font-weight: bold;
+	text-align: center;
+}
+
+td{
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+}
+
+td a{
+	color: #aa2525;
+	margin-right: 0.5em;
+}
+
+
+/*///// MENSAJES /////*/
+
+
+.alert{
+	color: #ffeb1b;
+	padding-top: 0.5em;
+	text-align: center;
+}
+
+.alert a{
+	color: white;
+	padding: 0.5em;
+}
+
+.error{
+	color: #aa2525;
+}
+
+
+/*///// BOTONERA /////*/
+
+
+.options{
+	display: flex;
+	justify-content: space-between;
+	width: 25%;
+}
+
+.options a{
+	color: #f3f3f3;
+	border-radius: 3px;
+	padding: 0.5em;
+}
+
+
+.avatar{
+	background: url(../../img/thumbs/thumb.jpg);
+	background-size: cover;
+	height: 20vh;
+	width: 10vw;
+}
+
+.avatar img{
+	height: 100%;
+	width: 100%;
+}
+
+.box, .box2{
+	background: #808080;
+	height: 233.33px;
+	width: 341.33px;
+	margin-top: 1em;
+	text-align: center;
+}
+
+.box2{
+	height: 280px;
+	width: 420px;	
+}
+
+.box img, .box2 img{
+	height: 100%;
+	width: 100%;
+}
+	
+.box a, .box2 a{
+	color: white;
+}
+
+#slide{
+	height: 40px;
+	width: 80px;
+}
+
+#slide img{
+	height: 100%;
+	width: 100%;
+}
+
+.slideimg{
+	height: 100px;
+	width: 200px;
+	padding-bottom: 1em;
+}
+
+.slideimg img{
+	height: 100%;
+	width: 100%;
+}

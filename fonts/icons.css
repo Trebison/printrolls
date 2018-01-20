@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?g8dl2j');
+  src:  url('fonts/icomoon.eot?g8dl2j#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?g8dl2j') format('truetype'),
+    url('fonts/icomoon.woff?g8dl2j') format('woff'),
+    url('fonts/icomoon.svg?g8dl2j#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lonas:before {
+  content: "\e90a";
+}
+.icon-vinilos2:before {
+  content: "\e90d";
+}
+.icon-hojilla:before {
+  content: "\e914";
+}
+.icon-remache:before {
+  content: "\e962";
+}
+.icon-spider:before {
+  content: "\e963";
+}
+.icon-stands:before {
+  content: "\e964";
+}
+.icon-accesorios:before {
+  content: "\e900";
+}
+.icon-arrow:before {
+  content: "\e901";
+}
+.icon-config:before {
+  content: "\e902";
+}
+.icon-dispatch:before {
+  content: "\e903";
+}
+.icon-exhibidores:before {
+  content: "\e904";
+}
+.icon-home:before {
+  content: "\e905";
+}
+.icon-instagram:before {
+  content: "\e906";
+}
+.icon-laminados:before {
+  content: "\e907";
+}
+.icon-location:before {
+  content: "\e908";
+}
+.icon-mail:before {
+  content: "\e90b";
+}
+.icon-plotters:before {
+  content: "\e90c";
+}
+.icon-products:before {
+  content: "\e90e";
+}
+.icon-team:before {
+  content: "\e90f";
+}
+.icon-up:before {
+  content: "\e910";
+}
+.icon-vinilos:before {
+  content: "\e911";
+}
+.icon-waze:before {
+  content: "\e912";
+}
+.icon-whatsapp:before {
+  content: "\e913";
+}
+.icon-printrolls:before {
+  content: "\e909";
+}
